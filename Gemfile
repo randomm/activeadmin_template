@@ -42,11 +42,3 @@ gem "meta_search",    '>= 1.1.0.pre'
 gem "magic_encoding"
 gem "cancan"
 gem "rolify"
-
-group :development, :test do
-  gem "rspec-rails", ">= 2.0.1"
-  gem 'cucumber-rails', :require => false
-  gem 'database_cleaner'
-  gem 'guard-cucumber'
-  gem 'guard-rails'
-end
